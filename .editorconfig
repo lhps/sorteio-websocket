@@ -1,0 +1,38 @@
+# Arquivo .editorconfig básico
+
+# Top-level definition
+root = true
+
+# Defina o estilo de indentação padrão como espaços
+[*]
+indent_style = space
+indent_size = 2
+
+# Defina a quebra de linha padrão como LF (Unix-style)
+[*]
+end_of_line = lf
+
+# Defina o conjunto de caracteres padrão como UTF-8
+[*]
+charset = utf-8
+
+# Remova espaços em branco à direita em todas as linhas
+[*]
+trim_trailing_whitespace = true
+
+# Adicione uma nova linha ao final do arquivo
+[*]
+insert_final_newline = true
+
+# Forçar o uso de aspas simples
+[*]
+quote_type = single
+
+# Configurações específicas para arquivos Python
+[*.py]
+indent_size = 2
+
+# Configurações específicas para arquivos JavaScript e JSON
+[*.js]
+[*.json]
+indent_size = 2
